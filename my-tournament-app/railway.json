@@ -3,7 +3,7 @@
     "builder": "NIXPACKS"
   },
   "deploy": {
-    "startCommand": "echo 'Static site deployed successfully'",
+    "startCommand": "npx serve -s .",
     "healthcheckPath": "/index.html"
   }
 }
